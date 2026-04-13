@@ -1,0 +1,4 @@
+timestamp,location,device_id,fault_type
+2025-02-01 10:00,Dublin,router-01,LINK_DOWN
+2025-02-01 10:05,Dublin,router-01,CPU_HIGH
+2025-02-01 10:10,Cork,switch-02,PORT_ERROR
