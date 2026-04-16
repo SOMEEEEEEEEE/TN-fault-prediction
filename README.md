@@ -20,11 +20,13 @@ The dataset contains telecom network fault records with fields such as:
 
 Note: The full dataset is not included in this repository due to confidentiality. A sample schema is provided in `data/sample.csv`.
 
-## Planned Approach
-- Temporal feature engineering (fault frequency, time windows)
-- Device-level aggregation features
-- Baseline classification model (LightGBM)
-- Evaluation using accuracy / ROC-AUC
+## Modeling Approach
+- time-based handling delays
+- fault severity indicators
+- region and team information
+- repeated ticket frequency
+
+A LightGBM baseline classifier is used to estimate the probability of ticket timeout.
 
 ## Status
-Work in progress (WIP)
+Exploratory baseline model.
